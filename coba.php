@@ -3,10 +3,7 @@
 //membuat class
 class mobil {
     //membuat property
-    public $nama,
-    public $warna,
-    public $merk,
-    public $kecepatanmaksimal;
+    public $nama, $warna, $merk, $kecepatanmaksimal;
 
     //membuat method/ prilaku 
     public function tambahkecepatan(){
@@ -20,9 +17,9 @@ class mobil {
 }
 
 //membuat object
-$a = new Coba();
-$b = new Coba();
-$c = new Coba();
+$a = new mobil();
+$b = new mobil();
+$c = new mobil();
 
 
 
